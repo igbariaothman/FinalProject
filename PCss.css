@@ -81,5 +81,26 @@ footer {
   font-size: 0.8em;
 }
 
+.deleteall {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
 
+.delete-all-btn:hover {
+  background-color: #c82333;
+}
+
+.upbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
