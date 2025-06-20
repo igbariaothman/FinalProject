@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./PCss.css">
+  <title>Phone Book</title>
+</head>
+
+<body>
+  <h1>Phone Book</h1>
+  <div class="container">
+    <input type="text" class="search-input" placeholder="Search..." />
+    <div class="card">
+      <div class="upbar">
+        <p id="count"> people</p>
+        <button onclick="deleteallcontact()" class="deleteall" title="Delete All">🗑️</button>
+        <button id="add" title="Add Contact">➕</button>
+        <button id="info" title="Info">ℹ️</button>
+        <button id="edit" title="Edit">✏️</button>
+      </div>
+      <div id="contactsList"></div>
+    </div>
+  </div>
+
+  <footer>
+    <h3>Our customer service team is available:</h3>
+    <p>Contact Us </p>
+      <p>Phone : 0507695517</p>
+      <p>Mail : igbariaothman@gmail.com</p>
+
+    <h3>Support Hours</h3>
+
+      <p>Sunday to Friday: 9 AM - 5 PM</p>
+      <p>Saturday: Closed</p>
+  </footer>
+
+<script src="JS.js"></script>
+</body>
+
+</html>
