@@ -37,18 +37,11 @@ p {
 }
 
 
-/* .contact-info {
-  display: flex;
-  align-items: center;
-} */
-
 .contact-info {
   display: flex;
   align-items: center;
   padding-left: 60px;
-  /* أضف هذا */
   position: relative;
-  /* ضروري لتموضع الصورة */
 }
 
 
@@ -149,7 +142,6 @@ footer {
   gap: 10px;
 }
 
-/* ترتيب الأزرار داخل نافذة إضافة جهة الاتصال */
 #addContactPopup .button-group {
   display: flex;
   justify-content: flex-end;
@@ -172,9 +164,6 @@ footer {
 }
 
 
-
-
-/* popup الخلفية */
 .popup {
   position: fixed;
   top: 0;
@@ -240,28 +229,11 @@ footer {
   background-color: #e2e8f0;
 }
 
-.hidden {
-  display: none;
-}
-
-
-
 
 .hovered {
   background-color: #f3f3f3;
 }
 
-
-
-
-
-/* .profile-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 10px;
-} */
 
 .profile-img {
   width: 50px;
@@ -274,22 +246,6 @@ footer {
   transform: translateY(-50%);
 }
 
-
-
-/* 
-.effect-mode {
-  animation: bgPulse 3s infinite alternate;
-}
-
-@keyframes bgPulse {
-  0% {
-    background-color: #e0f7fa;
-  }
-
-  100% {
-    background-color: #fce4ec;
-  }
-} */
 
 .effect-mode {
   filter: grayscale(100%) brightness(0.8);
